@@ -1,15 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-input-search',
+  selector: 'input-search',
   templateUrl: './input-search.component.html',
-  styleUrls: ['./input-search.component.scss']
+  styleUrls: ['./input-search.component.scss'],
 })
 export class InputSearchComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
