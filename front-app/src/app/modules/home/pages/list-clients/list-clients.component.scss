@@ -1,0 +1,19 @@
+.head-list {
+  margin-bottom: 30px;
+
+  @media (min-width: 768px) {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.search {
+  @media (max-width: 767.98px) {
+    margin-bottom: 30px;
+  }
+}
+
+.table-list {
+  overflow-x: auto;
+}
