@@ -1,7 +1,23 @@
-<div class="input-group">
+<div class="search-content">
   <input
     type="text"
-    class="form-control"
+    class="form-control search-content__input"
     placeholder="Digite o nome do cliente"
+    [(ngModel)]="inputSearchValue"
+    #fieldSearch
   />
+
+  <ng-container *ngIf="inputSearchValue.length === 0">
+    <img
+      src="../../../../../assets/imgs/icon-search.png"
+      alt="icon-search.png"
+      class="search-content__icon"
+    />
+  </ng-container>
+
+  <ng-container *ngIf="inputSearchValue.length > 0">
+    <span class="search-content__icon-clean" (click)="cleanInputSearch()"
+      >&times;</span
+    >
+  </ng-container>
 </div>
