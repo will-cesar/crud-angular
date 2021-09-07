@@ -6,6 +6,7 @@
 ## Tecnologias utilizadas
 - [**Angular 12**](https://angular.io)
 - [**Bootstrap 5**](https://getbootstrap.com)
+- [**Font Awesome**](https://fontawesome.com)
 - [**HTML**](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [**JavaScript**](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [**SASS**](https://sass-lang.com)
