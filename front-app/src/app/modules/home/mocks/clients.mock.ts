@@ -1,0 +1,158 @@
+interface MockClientsInterface {
+  id: string;
+  name: string;
+  type: TypeEnum;
+  document: string;
+  identity: string;
+  createAt: string;
+  active: boolean;
+  phone: string;
+}
+
+enum TypeEnum {
+  FISICA = 'Física',
+  JURIDICA = 'Jurídica',
+}
+
+export const clientsMock: MockClientsInterface[] = [
+  {
+    id: '1',
+    name: 'Mark',
+    type: TypeEnum.FISICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: true,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '2',
+    name: 'Julio',
+    type: TypeEnum.FISICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: true,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '3',
+    name: 'William',
+    type: TypeEnum.JURIDICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: true,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '4',
+    name: 'Zorro',
+    type: TypeEnum.JURIDICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: false,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '5',
+    name: 'Gabriela',
+    type: TypeEnum.JURIDICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: false,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '6',
+    name: 'Elvis',
+    type: TypeEnum.JURIDICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: false,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '6',
+    name: 'Elvis',
+    type: TypeEnum.FISICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: true,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '7',
+    name: 'Maria',
+    type: TypeEnum.FISICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: true,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '8',
+    name: 'Cleiton',
+    type: TypeEnum.JURIDICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: false,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '9',
+    name: 'Igor',
+    type: TypeEnum.JURIDICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: false,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '10',
+    name: 'Paulo',
+    type: TypeEnum.FISICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: false,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '11',
+    name: 'Fabio',
+    type: TypeEnum.FISICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: false,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '12',
+    name: 'Gabriel',
+    type: TypeEnum.JURIDICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: true,
+    phone: '(00) 0000-0000',
+  },
+  {
+    id: '13',
+    name: 'Gabriel',
+    type: TypeEnum.JURIDICA,
+    document: '000.000.000-00',
+    identity: '00.000.000-0',
+    createAt: '00/00/0000',
+    active: true,
+    phone: '(00) 0000-0000',
+  },
+];
