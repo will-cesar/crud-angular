@@ -5,10 +5,11 @@ import { FormsModule } from '@angular/forms';
 
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { InputSearchComponent } from './components/input-search/input-search.component';
+import { NoResultsComponent } from './components/no-results/no-results.component';
 
 @NgModule({
-  declarations: [NavbarComponent, InputSearchComponent],
+  declarations: [NavbarComponent, InputSearchComponent, NoResultsComponent],
   imports: [CommonModule, RouterModule, FormsModule],
-  exports: [NavbarComponent, InputSearchComponent],
+  exports: [NavbarComponent, InputSearchComponent, NoResultsComponent],
 })
 export class SharedModule {}
