@@ -10,7 +10,11 @@ const routes: Routes = [
     component: ListClientsComponent,
   },
   {
-    path: ':id',
+    path: 'criar',
+    component: DetailsClientComponent,
+  },
+  {
+    path: 'editar/:id',
     component: DetailsClientComponent,
   },
 ];
