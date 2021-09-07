@@ -8,16 +8,13 @@
   />
 
   <ng-container *ngIf="inputSearchValue.length === 0">
-    <img
-      src="../../../../../assets/imgs/icon-search.png"
-      alt="icon-search.png"
-      class="search-content__icon"
-    />
+    <i class="fas fa-search search-content__icon-clean"></i>
   </ng-container>
 
   <ng-container *ngIf="inputSearchValue.length > 0">
-    <span class="search-content__icon-clean" (click)="cleanInputSearch()"
-      >&times;</span
-    >
+    <i
+      class="fas fa-times search-content__icon-clean"
+      (click)="cleanInputSearch()"
+    ></i>
   </ng-container>
 </div>
