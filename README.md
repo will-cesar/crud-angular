@@ -27,3 +27,7 @@
   - Ativo (se está ativo);     
   - Telefone, contendo ddd e número, permitir adicionar mais do que um e remover os adicionados. (Mestre Detalhe)
   - Ao gravar validar se já existe um cliente cadastrado com o CPF/CNPJ informado.
+
+## Run App
+- npm start -> inicia e roda o projeto em ambiente de desenvolvimento na url: http://localhost:4200/
+- npm run build --prod -> comando para gerar o "pacote" do projeto para fazer o deploy em produção
