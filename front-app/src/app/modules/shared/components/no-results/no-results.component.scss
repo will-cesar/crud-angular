@@ -1,0 +1,11 @@
+.no-results {
+  color: #6c757d;
+  opacity: .4;
+  padding: 40px;
+  text-align: center;
+
+  &__icon {
+    font-size: 80px;
+    margin-bottom: 12px;
+  }
+}
