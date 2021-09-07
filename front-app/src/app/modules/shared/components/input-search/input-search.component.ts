@@ -28,6 +28,7 @@ export class InputSearchComponent implements OnInit {
 
   cleanInputSearch(): void {
     this.inputSearchValue = '';
+    this.sendValue();
   }
 
   ngOnInit(): void {
