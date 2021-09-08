@@ -1,0 +1,13 @@
+@use '../base/colors' as color;
+
+.ngx-pagination {
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+
+  li {
+    &.current {
+      background-color: color.$gray-primary;
+    }
+  }
+}
