@@ -85,15 +85,6 @@
               </td>
             </tr>
           </ng-container>
-
-          <pagination-controls
-            id="listOfClients"
-            (pageChange)="pageChanged($event)"
-            previousLabel=""
-            nextLabel=""
-            [autoHide]="true"
-          >
-          </pagination-controls>
         </ng-container>
 
         <ng-container *ngIf="!isLoading && listOfClients.length === 0">
@@ -105,5 +96,14 @@
         </ng-container>
       </tbody>
     </table>
+
+    <pagination-controls
+      id="listOfClients"
+      (pageChange)="pageChanged($event)"
+      previousLabel=""
+      nextLabel=""
+      [autoHide]="true"
+    >
+    </pagination-controls>
   </div>
 </div>
