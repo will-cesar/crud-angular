@@ -10,10 +10,19 @@
 
 .search {
   @media (max-width: 767.98px) {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 
 .table-list {
-  overflow-x: auto;
+  thead tr {
+    border-bottom: 1px solid;
+  }
+}
+
+.actions {
+  &__btn {
+    background: transparent;
+    border: 0;
+  }
 }
