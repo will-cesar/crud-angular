@@ -1,7 +1,6 @@
-# Teste MKData Softwares
+# CRUD - Clientes
 
 > Projeto para CRUD de clientes</br>
-> Link em produção: https://teste-mk-data.netlify.app
 
 ## Tecnologias utilizadas
 - [**Angular 12**](https://angular.io)
